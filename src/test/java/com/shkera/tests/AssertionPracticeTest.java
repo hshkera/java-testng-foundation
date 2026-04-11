@@ -3,7 +3,9 @@ package com.shkera.tests;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class AssertionPracticeTest {
+import com.shkera.base.BaseTest;
+
+public class AssertionPracticeTest extends BaseTest {
 
     @Test
     public void valueShouldNotBeNull() {

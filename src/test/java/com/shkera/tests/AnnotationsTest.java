@@ -5,7 +5,9 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class AnnotationsTest {
+import com.shkera.base.BaseTest;
+
+public class AnnotationsTest extends BaseTest {
 
     @BeforeMethod
     public void setUp() {

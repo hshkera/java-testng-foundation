@@ -4,7 +4,9 @@ import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-public class DataProviderTest {
+import com.shkera.base.BaseTest;
+
+public class DataProviderTest extends BaseTest {
 
     @DataProvider(name = "loginData")
     public Object[][] loginData() {
