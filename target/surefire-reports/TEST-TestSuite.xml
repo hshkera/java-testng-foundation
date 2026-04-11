@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="5.233" tests="6" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="5.26" tests="15" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -13,7 +13,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="AE"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/techweed.co/automation-journey/java-testng-foundation/target/surefire/surefirebooter-20260409121134206_3.jar /Users/techweed.co/automation-journey/java-testng-foundation/target/surefire 2026-04-09T12-11-34_172-jvmRun1 surefire-20260409121134206_1tmp surefire_0-20260409121134206_2tmp"/>
+    <property name="sun.java.command" value="/Users/techweed.co/automation-journey/java-testng-foundation/target/surefire/surefirebooter-20260411100709098_3.jar /Users/techweed.co/automation-journey/java-testng-foundation/target/surefire 2026-04-11T10-07-09_059-jvmRun1 surefire-20260411100709098_1tmp surefire_0-20260411100709098_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/techweed.co/automation-journey/java-testng-foundation/target/test-classes:/Users/techweed.co/automation-journey/java-testng-foundation/target/classes:/Users/techweed.co/.m2/repository/org/testng/testng/7.11.0/testng-7.11.0.jar:/Users/techweed.co/.m2/repository/org/slf4j/slf4j-api/2.0.16/slf4j-api-2.0.16.jar:/Users/techweed.co/.m2/repository/org/jcommander/jcommander/1.83/jcommander-1.83.jar:/Users/techweed.co/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:"/>
@@ -29,7 +29,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/Users/techweed.co/automation-journey/java-testng-foundation/target/surefire/surefirebooter-20260409121134206_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/techweed.co/automation-journey/java-testng-foundation/target/surefire/surefirebooter-20260411100709098_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="17.0.12+8-LTS-286"/>
@@ -55,24 +55,45 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="additionShouldReturnCorrectResult" classname="test.java.com.shkera.tests.BasicTest" time="0.002">
+  <testcase name="additionShouldReturnCorrectResult" classname="com.shkera.tests.BasicTest" time="0.012">
     <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
 SLF4J(W): Defaulting to no-operation (NOP) logger implementation
 SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
 ]]></system-err>
   </testcase>
-  <testcase name="arrayShouldHaveExpectedLength" classname="test.java.com.shkera.tests.BasicTest" time="0.0"/>
-  <testcase name="booleanConditionShouldEvaluateToTrue" classname="test.java.com.shkera.tests.BasicTest" time="0.0"/>
-  <testcase name="stringsShouldMatchCorrectly" classname="test.java.com.shkera.tests.BasicTest" time="0.0"/>
-  <testcase name="numberComparisonShouldPass" classname="test.java.com.shkera.tests.AnnotationsTest" time="0.0">
+  <testcase name="arrayShouldHaveExpectedLength" classname="com.shkera.tests.BasicTest" time="0.0"/>
+  <testcase name="booleanConditionShouldEvaluateToTrue" classname="com.shkera.tests.BasicTest" time="0.0"/>
+  <testcase name="stringsShouldMatchCorrectly" classname="com.shkera.tests.BasicTest" time="0.0"/>
+  <testcase name="numberComparisonShouldPass" classname="com.shkera.tests.AnnotationsTest" time="0.0">
     <system-out><![CDATA[Setting up before test
 Running number comparison test
 ]]></system-out>
   </testcase>
-  <testcase name="textShouldMatch" classname="test.java.com.shkera.tests.AnnotationsTest" time="0.0">
+  <testcase name="textShouldMatch" classname="com.shkera.tests.AnnotationsTest" time="0.0">
     <system-out><![CDATA[Cleaning up after test
 Setting up before test
 Running text match test
+]]></system-out>
+  </testcase>
+  <testcase name="conditionShouldBeFalse" classname="com.shkera.tests.AssertionPracticeTest" time="0.0">
+    <system-out><![CDATA[Cleaning up after test
+]]></system-out>
+  </testcase>
+  <testcase name="valueShouldNotBeNull" classname="com.shkera.tests.AssertionPracticeTest" time="0.0"/>
+  <testcase name="valuesShouldNotMatch" classname="com.shkera.tests.AssertionPracticeTest" time="0.0"/>
+  <testcase name="additionShouldReturnExpectedResult[2, 3, 5](1)" classname="com.shkera.tests.DataProviderTest" time="0.0"/>
+  <testcase name="additionShouldReturnExpectedResult[10, 5, 15](2)" classname="com.shkera.tests.DataProviderTest" time="0.0"/>
+  <testcase name="additionShouldReturnExpectedResult[7, 8, 15](3)" classname="com.shkera.tests.DataProviderTest" time="0.001"/>
+  <testcase name="loginShouldWorkWithValidData[user1, pass1](1)" classname="com.shkera.tests.DataProviderTest" time="0.001">
+    <system-out><![CDATA[Testing login with: user1 / pass1
+]]></system-out>
+  </testcase>
+  <testcase name="loginShouldWorkWithValidData[user2, pass2](2)" classname="com.shkera.tests.DataProviderTest" time="0.0">
+    <system-out><![CDATA[Testing login with: user2 / pass2
+]]></system-out>
+  </testcase>
+  <testcase name="loginShouldWorkWithValidData[admin, admin123](3)" classname="com.shkera.tests.DataProviderTest" time="0.0">
+    <system-out><![CDATA[Testing login with: admin / admin123
 ]]></system-out>
   </testcase>
 </testsuite>

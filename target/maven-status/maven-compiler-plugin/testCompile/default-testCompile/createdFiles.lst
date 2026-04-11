@@ -1,2 +1,4 @@
-test/java/com/shkera/tests/AnnotationsTest.class
-test/java/com/shkera/tests/BasicTest.class
+com/shkera/tests/DataProviderTest.class
+com/shkera/tests/BasicTest.class
+com/shkera/tests/AssertionPracticeTest.class
+com/shkera/tests/AnnotationsTest.class

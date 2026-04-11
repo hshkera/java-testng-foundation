@@ -2,8 +2,10 @@
 <suite name="Foundation Suite">
     <test name="Basic Tests">
         <classes>
-            <class name="test.java.com.shkera.tests.BasicTest"/>
-            <class name="test.java.com.shkera.tests.AnnotationsTest"/>
+            <class name="com.shkera.tests.BasicTest"/>
+            <class name="com.shkera.tests.AnnotationsTest"/>
+            <class name="com.shkera.tests.AssertionPracticeTest"/>
+            <class name="com.shkera.tests.DataProviderTest"/>
         </classes>
     </test>
 </suite>
