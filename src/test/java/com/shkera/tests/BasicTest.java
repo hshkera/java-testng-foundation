@@ -4,7 +4,7 @@ import com.shkera.base.BaseTest;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class BasicTest extends BaseTest {
+public class BasicTest extends BaseTest{
 
     @Test
     public void additionShouldReturnCorrectResult() {

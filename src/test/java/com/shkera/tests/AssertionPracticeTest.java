@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 import com.shkera.base.BaseTest;
 
-public class AssertionPracticeTest extends BaseTest {
+public class AssertionPracticeTest extends BaseTest{
 
     @Test
     public void valueShouldNotBeNull() {

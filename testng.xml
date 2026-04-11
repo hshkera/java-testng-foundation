@@ -2,21 +2,11 @@
 <suite name="Foundation Suite">
     <test name="Basic Tests">
         <classes>
-            <class name="com.shkera.tests.BasicTest"/>
+            <!-- <class name="com.shkera.tests.BasicTest"/>
             <class name="com.shkera.tests.AnnotationsTest"/>
             <class name="com.shkera.tests.AssertionPracticeTest"/>
-            <class name="com.shkera.tests.DataProviderTest"/>
+            <class name="com.shkera.tests.DataProviderTest"/> -->
+            <class name="com.shkera.tests.GoogleTest"/>
         </classes>
     </test>
 </suite>
-
-<!-- <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Foundation Suite">
-    <test name="Core TestNG Tests">
-        <classes>
-            <class name="test.java.com.shkera.tests.BasicTest"/>
-            <class name="test.java.com.shkera.tests.AnnotationsTest"/>
-        </classes>
-    </test>
-</suite> -->

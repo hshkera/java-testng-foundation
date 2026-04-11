@@ -2,4 +2,5 @@ com/shkera/tests/DataProviderTest.class
 com/shkera/tests/BasicTest.class
 com/shkera/tests/AssertionPracticeTest.class
 com/shkera/base/BaseTest.class
+com/shkera/tests/GoogleTest.class
 com/shkera/tests/AnnotationsTest.class

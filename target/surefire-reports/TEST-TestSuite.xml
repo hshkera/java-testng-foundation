@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="5.25" tests="12" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="8.102" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/Users/techweed.co/automation-journey/java-testng-foundation/target/test-classes:/Users/techweed.co/automation-journey/java-testng-foundation/target/classes:/Users/techweed.co/.m2/repository/org/testng/testng/7.11.0/testng-7.11.0.jar:/Users/techweed.co/.m2/repository/org/slf4j/slf4j-api/2.0.16/slf4j-api-2.0.16.jar:/Users/techweed.co/.m2/repository/org/jcommander/jcommander/1.83/jcommander-1.83.jar:/Users/techweed.co/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:"/>
+    <property name="java.class.path" value="/Users/techweed.co/automation-journey/java-testng-foundation/target/test-classes:/Users/techweed.co/automation-journey/java-testng-foundation/target/classes:/Users/techweed.co/.m2/repository/org/testng/testng/7.11.0/testng-7.11.0.jar:/Users/techweed.co/.m2/repository/org/slf4j/slf4j-api/2.0.16/slf4j-api-2.0.16.jar:/Users/techweed.co/.m2/repository/org/jcommander/jcommander/1.83/jcommander-1.83.jar:/Users/techweed.co/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/techweed.co/.m2/repository/org/seleniumhq/selenium/selenium-java/4.21.0/selenium-java-4.21.0.jar:/Users/techweed.co/.m2/repository/org/seleniumhq/selenium/selenium-api/4.21.0/selenium-api-4.21.0.jar:/Users/techweed.co/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.21.0/selenium-chrome-driver-4.21.0.jar:/Users/techweed.co/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/techweed.co/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.21.0/selenium-chromium-driver-4.21.0.jar:/Users/techweed.co/.m2/repository/org/seleniumhq/selenium/selenium-json/4.21.0/selenium-json-4.21.0.jar:/Users/techweed.co/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.21.0/selenium-manager-4.21.0.jar:/Users/techweed.co/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v123/4.21.0/selenium-devtools-v123-4.21.0.jar:/Users/techweed.co/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v124/4.21.0/selenium-devtools-v124-4.21.0.jar:/Users/techweed.co/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v125/4.21.0/selenium-devtools-v125-4.21.0.jar:/Users/techweed.co/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.21.0/selenium-devtools-v85-4.21.0.jar:/Users/techweed.co/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.21.0/selenium-edge-driver-4.21.0.jar:/Users/techweed.co/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.21.0/selenium-firefox-driver-4.21.0.jar:/Users/techweed.co/.m2/repository/org/seleniumhq/selenium/selenium-http/4.21.0/selenium-http-4.21.0.jar:/Users/techweed.co/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar:/Users/techweed.co/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.21.0/selenium-ie-driver-4.21.0.jar:/Users/techweed.co/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.21.0/selenium-remote-driver-4.21.0.jar:/Users/techweed.co/.m2/repository/com/google/guava/guava/33.2.0-jre/guava-33.2.0-jre.jar:/Users/techweed.co/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/Users/techweed.co/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/techweed.co/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/techweed.co/.m2/repository/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar:/Users/techweed.co/.m2/repository/com/google/errorprone/error_prone_annotations/2.26.1/error_prone_annotations-2.26.1.jar:/Users/techweed.co/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/techweed.co/.m2/repository/io/opentelemetry/semconv/opentelemetry-semconv/1.25.0-alpha/opentelemetry-semconv-1.25.0-alpha.jar:/Users/techweed.co/.m2/repository/io/opentelemetry/opentelemetry-api/1.38.0/opentelemetry-api-1.38.0.jar:/Users/techweed.co/.m2/repository/io/opentelemetry/opentelemetry-context/1.38.0/opentelemetry-context-1.38.0.jar:/Users/techweed.co/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.38.0/opentelemetry-exporter-logging-1.38.0.jar:/Users/techweed.co/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.38.0/opentelemetry-sdk-common-1.38.0.jar:/Users/techweed.co/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.38.0/opentelemetry-sdk-extension-autoconfigure-spi-1.38.0.jar:/Users/techweed.co/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.38.0/opentelemetry-sdk-extension-autoconfigure-1.38.0.jar:/Users/techweed.co/.m2/repository/io/opentelemetry/opentelemetry-api-incubator/1.38.0-alpha/opentelemetry-api-incubator-1.38.0-alpha.jar:/Users/techweed.co/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.38.0/opentelemetry-sdk-trace-1.38.0.jar:/Users/techweed.co/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.38.0/opentelemetry-sdk-1.38.0.jar:/Users/techweed.co/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.38.0/opentelemetry-sdk-metrics-1.38.0.jar:/Users/techweed.co/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.38.0/opentelemetry-sdk-logs-1.38.0.jar:/Users/techweed.co/.m2/repository/net/bytebuddy/byte-buddy/1.14.15/byte-buddy-1.14.15.jar:/Users/techweed.co/.m2/repository/org/seleniumhq/selenium/selenium-os/4.21.0/selenium-os-4.21.0.jar:/Users/techweed.co/.m2/repository/org/apache/commons/commons-exec/1.4.0/commons-exec-1.4.0.jar:/Users/techweed.co/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.21.0/selenium-safari-driver-4.21.0.jar:/Users/techweed.co/.m2/repository/org/seleniumhq/selenium/selenium-support/4.21.0/selenium-support-4.21.0.jar:"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
@@ -13,10 +13,10 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="AE"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/techweed.co/automation-journey/java-testng-foundation/target/surefire/surefirebooter-20260411111556949_3.jar /Users/techweed.co/automation-journey/java-testng-foundation/target/surefire 2026-04-11T11-15-56_914-jvmRun1 surefire-20260411111556949_1tmp surefire_0-20260411111556949_2tmp"/>
+    <property name="sun.java.command" value="/Users/techweed.co/automation-journey/java-testng-foundation/target/surefire/surefirebooter-20260411113150750_3.jar /Users/techweed.co/automation-journey/java-testng-foundation/target/surefire 2026-04-11T11-31-50_711-jvmRun1 surefire-20260411113150750_1tmp surefire_0-20260411113150750_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/Users/techweed.co/automation-journey/java-testng-foundation/target/test-classes:/Users/techweed.co/automation-journey/java-testng-foundation/target/classes:/Users/techweed.co/.m2/repository/org/testng/testng/7.11.0/testng-7.11.0.jar:/Users/techweed.co/.m2/repository/org/slf4j/slf4j-api/2.0.16/slf4j-api-2.0.16.jar:/Users/techweed.co/.m2/repository/org/jcommander/jcommander/1.83/jcommander-1.83.jar:/Users/techweed.co/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:"/>
+    <property name="surefire.test.class.path" value="/Users/techweed.co/automation-journey/java-testng-foundation/target/test-classes:/Users/techweed.co/automation-journey/java-testng-foundation/target/classes:/Users/techweed.co/.m2/repository/org/testng/testng/7.11.0/testng-7.11.0.jar:/Users/techweed.co/.m2/repository/org/slf4j/slf4j-api/2.0.16/slf4j-api-2.0.16.jar:/Users/techweed.co/.m2/repository/org/jcommander/jcommander/1.83/jcommander-1.83.jar:/Users/techweed.co/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/techweed.co/.m2/repository/org/seleniumhq/selenium/selenium-java/4.21.0/selenium-java-4.21.0.jar:/Users/techweed.co/.m2/repository/org/seleniumhq/selenium/selenium-api/4.21.0/selenium-api-4.21.0.jar:/Users/techweed.co/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.21.0/selenium-chrome-driver-4.21.0.jar:/Users/techweed.co/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/techweed.co/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.21.0/selenium-chromium-driver-4.21.0.jar:/Users/techweed.co/.m2/repository/org/seleniumhq/selenium/selenium-json/4.21.0/selenium-json-4.21.0.jar:/Users/techweed.co/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.21.0/selenium-manager-4.21.0.jar:/Users/techweed.co/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v123/4.21.0/selenium-devtools-v123-4.21.0.jar:/Users/techweed.co/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v124/4.21.0/selenium-devtools-v124-4.21.0.jar:/Users/techweed.co/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v125/4.21.0/selenium-devtools-v125-4.21.0.jar:/Users/techweed.co/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.21.0/selenium-devtools-v85-4.21.0.jar:/Users/techweed.co/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.21.0/selenium-edge-driver-4.21.0.jar:/Users/techweed.co/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.21.0/selenium-firefox-driver-4.21.0.jar:/Users/techweed.co/.m2/repository/org/seleniumhq/selenium/selenium-http/4.21.0/selenium-http-4.21.0.jar:/Users/techweed.co/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar:/Users/techweed.co/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.21.0/selenium-ie-driver-4.21.0.jar:/Users/techweed.co/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.21.0/selenium-remote-driver-4.21.0.jar:/Users/techweed.co/.m2/repository/com/google/guava/guava/33.2.0-jre/guava-33.2.0-jre.jar:/Users/techweed.co/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/Users/techweed.co/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/techweed.co/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/techweed.co/.m2/repository/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar:/Users/techweed.co/.m2/repository/com/google/errorprone/error_prone_annotations/2.26.1/error_prone_annotations-2.26.1.jar:/Users/techweed.co/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/techweed.co/.m2/repository/io/opentelemetry/semconv/opentelemetry-semconv/1.25.0-alpha/opentelemetry-semconv-1.25.0-alpha.jar:/Users/techweed.co/.m2/repository/io/opentelemetry/opentelemetry-api/1.38.0/opentelemetry-api-1.38.0.jar:/Users/techweed.co/.m2/repository/io/opentelemetry/opentelemetry-context/1.38.0/opentelemetry-context-1.38.0.jar:/Users/techweed.co/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.38.0/opentelemetry-exporter-logging-1.38.0.jar:/Users/techweed.co/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.38.0/opentelemetry-sdk-common-1.38.0.jar:/Users/techweed.co/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.38.0/opentelemetry-sdk-extension-autoconfigure-spi-1.38.0.jar:/Users/techweed.co/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.38.0/opentelemetry-sdk-extension-autoconfigure-1.38.0.jar:/Users/techweed.co/.m2/repository/io/opentelemetry/opentelemetry-api-incubator/1.38.0-alpha/opentelemetry-api-incubator-1.38.0-alpha.jar:/Users/techweed.co/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.38.0/opentelemetry-sdk-trace-1.38.0.jar:/Users/techweed.co/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.38.0/opentelemetry-sdk-1.38.0.jar:/Users/techweed.co/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.38.0/opentelemetry-sdk-metrics-1.38.0.jar:/Users/techweed.co/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.38.0/opentelemetry-sdk-logs-1.38.0.jar:/Users/techweed.co/.m2/repository/net/bytebuddy/byte-buddy/1.14.15/byte-buddy-1.14.15.jar:/Users/techweed.co/.m2/repository/org/seleniumhq/selenium/selenium-os/4.21.0/selenium-os-4.21.0.jar:/Users/techweed.co/.m2/repository/org/apache/commons/commons-exec/1.4.0/commons-exec-1.4.0.jar:/Users/techweed.co/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.21.0/selenium-safari-driver-4.21.0.jar:/Users/techweed.co/.m2/repository/org/seleniumhq/selenium/selenium-support/4.21.0/selenium-support-4.21.0.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/Users/techweed.co"/>
     <property name="user.language" value="en"/>
@@ -29,7 +29,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/Users/techweed.co/automation-journey/java-testng-foundation/target/surefire/surefirebooter-20260411111556949_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/techweed.co/automation-journey/java-testng-foundation/target/surefire/surefirebooter-20260411113150750_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="17.0.12+8-LTS-286"/>
@@ -55,72 +55,17 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="additionShouldReturnCorrectResult" classname="com.shkera.tests.BasicTest" time="0.003">
-    <system-out><![CDATA[Base setup: initializing test
+  <testcase name="googleHomePageShouldLoad" classname="com.shkera.tests.GoogleTest" time="1.187">
+    <system-out><![CDATA[Launching browser...
+Page title: Google
 ]]></system-out>
     <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
 SLF4J(W): Defaulting to no-operation (NOP) logger implementation
 SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Apr 11, 2026 11:31:52 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 146
+Apr 11, 2026 11:31:52 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 146.0.7680.178. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
-  </testcase>
-  <testcase name="numberComparisonShouldPass" classname="com.shkera.tests.AnnotationsTest" time="0.0">
-    <system-out><![CDATA[Base teardown: cleaning up
-Setting up before test
-Running number comparison test
-]]></system-out>
-  </testcase>
-  <testcase name="textShouldMatch" classname="com.shkera.tests.AnnotationsTest" time="0.0">
-    <system-out><![CDATA[Cleaning up after test
-Setting up before test
-Running text match test
-]]></system-out>
-  </testcase>
-  <testcase name="conditionShouldBeFalse" classname="com.shkera.tests.AssertionPracticeTest" time="0.0">
-    <system-out><![CDATA[Cleaning up after test
-Base setup: initializing test
-]]></system-out>
-  </testcase>
-  <testcase name="valueShouldNotBeNull" classname="com.shkera.tests.AssertionPracticeTest" time="0.0">
-    <system-out><![CDATA[Base teardown: cleaning up
-Base setup: initializing test
-]]></system-out>
-  </testcase>
-  <testcase name="valuesShouldNotMatch" classname="com.shkera.tests.AssertionPracticeTest" time="0.0">
-    <system-out><![CDATA[Base teardown: cleaning up
-Base setup: initializing test
-]]></system-out>
-  </testcase>
-  <testcase name="additionShouldReturnExpectedResult[2, 3, 5](1)" classname="com.shkera.tests.DataProviderTest" time="0.0">
-    <system-out><![CDATA[Base teardown: cleaning up
-Base setup: initializing test
-]]></system-out>
-  </testcase>
-  <testcase name="additionShouldReturnExpectedResult[10, 5, 15](2)" classname="com.shkera.tests.DataProviderTest" time="0.0">
-    <system-out><![CDATA[Base teardown: cleaning up
-Base setup: initializing test
-]]></system-out>
-  </testcase>
-  <testcase name="additionShouldReturnExpectedResult[7, 8, 15](3)" classname="com.shkera.tests.DataProviderTest" time="0.0">
-    <system-out><![CDATA[Base teardown: cleaning up
-Base setup: initializing test
-]]></system-out>
-  </testcase>
-  <testcase name="loginShouldWorkWithValidData[user1, pass1](1)" classname="com.shkera.tests.DataProviderTest" time="0.0">
-    <system-out><![CDATA[Base teardown: cleaning up
-Base setup: initializing test
-Testing login with: user1 / pass1
-]]></system-out>
-  </testcase>
-  <testcase name="loginShouldWorkWithValidData[user2, pass2](2)" classname="com.shkera.tests.DataProviderTest" time="0.0">
-    <system-out><![CDATA[Base teardown: cleaning up
-Base setup: initializing test
-Testing login with: user2 / pass2
-]]></system-out>
-  </testcase>
-  <testcase name="loginShouldWorkWithValidData[admin, admin123](3)" classname="com.shkera.tests.DataProviderTest" time="0.0">
-    <system-out><![CDATA[Base teardown: cleaning up
-Base setup: initializing test
-Testing login with: admin / admin123
-]]></system-out>
   </testcase>
 </testsuite>

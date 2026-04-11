@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 import com.shkera.base.BaseTest;
 
-public class AnnotationsTest extends BaseTest {
+public class AnnotationsTest{
 
     @BeforeMethod
     public void setUp() {
